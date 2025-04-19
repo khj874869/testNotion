@@ -1,3 +1,6 @@
+import os
+
+
 NOTION_TOKEN = os.getenv("NOTION_TOKEN")
 DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
 HEADERS = {
